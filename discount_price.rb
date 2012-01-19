@@ -1,8 +1,7 @@
 class DiscountPrice
-  attr_accessor :price, :percent_discount
 
-  def initialize(price, percent_discount)
-    @percent = percent_discount
+  def initialize(price, percent)
+    @percent = percent
     @price = price
   end
 
